@@ -32,7 +32,8 @@ jobs:
     - name: Lint with flake8
       run: |
         # It will use the settings as in pyproject.toml
-        flake8 .
+        flake8
     - name: Test with pytest
       run: |
+        # It will use the settings as in pyproject.toml
         pytest
